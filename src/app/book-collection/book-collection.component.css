@@ -1,0 +1,64 @@
+.book-item {
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.book-item p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #3f51b5;
+  margin: 0;
+}
+
+.book-item span {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.book-item button {
+  border: 1px solid #dee2e6;
+  border-radius: 25px;
+  padding: 0.5rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+/* Add button style */
+[data-test="add-button"] {
+  background-color: #fff;
+  color: #495057;
+}
+
+[data-test="add-button"]:hover {
+  background-color: #f1f3f5;
+  transform: translateY(-2px);
+}
+
+/* Remove button style - red tint */
+[data-test="remove-button"] {
+  background-color: #fff0f0;
+  color: #d32f2f;
+  border-color: #f8d7da;
+}
+
+[data-test="remove-button"]:hover {
+  background-color: #fce4e4;
+  transform: translateY(-2px);
+}
+
+[data-test="remove-button"]:active,
+[data-test="add-button"]:active {
+  transform: translateY(0);
+}
