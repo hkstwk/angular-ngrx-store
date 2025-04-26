@@ -9,10 +9,11 @@ import {Book} from './book-list/books.model';
 import {BookListComponent} from './book-list/book-list.component';
 import {BookCollectionComponent} from './book-collection/book-collection.component';
 import {AsyncPipe} from '@angular/common';
+import {FilterOptionsComponent} from './filter-options/filter-options.component';
 
 @Component({
   selector: 'app-root',
-  imports: [CounterComponent, BookListComponent, BookCollectionComponent, AsyncPipe],
+  imports: [CounterComponent, BookListComponent, BookCollectionComponent, AsyncPipe, FilterOptionsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

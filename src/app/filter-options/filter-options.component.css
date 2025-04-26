@@ -1,0 +1,21 @@
+.task-card {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  text-align: center;
+
+  task-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  checkbox-label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #3f51b5; /* Same nice blue */
+  }
+}
